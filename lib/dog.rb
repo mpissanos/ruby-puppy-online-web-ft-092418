@@ -6,7 +6,8 @@ class Dog
   
   def initialize(name)
     @name = name
-    @@all << @name
+    # adding ( @@all << self ) below returns the dogs location in memory, not the actual names.
+    @@all << self
   end
   
   def self.all
