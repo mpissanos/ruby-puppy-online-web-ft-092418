@@ -9,12 +9,8 @@ class Dog
     @@all << self
   end
   
-  def name=(name)
-    @@name = name
-  end
-  
   def self.all
-    @@all.each do puts @@name
+    @@all.each do 
   end
   end
   
